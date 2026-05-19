@@ -7,12 +7,12 @@
 //
 
 import GLMap
+import GLMapSwift
 import SwiftUI
 
 @main
 struct SwiftUIDemoApp: App {
     init() {
-        GLMapManager.activate(apiKey: <#API key#>)
     }
 
     var body: some Scene {
